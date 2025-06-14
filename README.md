@@ -1,5 +1,5 @@
 1. Go to `edge://extensions/` in Microsoft Edge.
-2. Enable Developer mode\ (top-right).
+2. Enable Developer mode (top-right).
 3. Click "Load unpacked".
 4. Select your extension folder (must contain `manifest.json`).
    
