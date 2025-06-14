@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Draw</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 400px;
+      height: 300px;
+      overflow: hidden;
+      position: relative;
+    }
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgb(7, 5, 42);
+      border: 1px solid #ccc;
+      touch-action: none;
+      cursor: crosshair;
+    }
+    button {
+      position: absolute;
+      z-index: 10;
+      font-size: 12px;
+      padding: 2px 4px;
+    }
+    #clearBtn { top: 5px; left: 5px; }
+    #growX { top: 5px; right: 5px; }
+    #growY { bottom: 5px; left: 17px; }
+    #shrinkX { top: 5px; right: 24px; }
+    #shrinkY { bottom: 5px; left: 1px; }
+  </style>
+</head>
+<body>
+  <canvas id="draw"></canvas>
+  <button id="clearBtn">Clear</button>
+  <button id="growX">+</button>
+  <button id="growY">+</button>
+  <button id="shrinkX">-</button>
+  <button id="shrinkY">-</button>
+  <script src="popup.js"></script>
+</body>
+</html>
